@@ -1,0 +1,33 @@
+#Блюшилд/Синий щит
+
+# Берет
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  suffix: СЩ, БЩ
+  name: берет синего щита
+  description: Головной убор защитника глав
+  components:
+  - type: Sprite
+    sprite: _Mille/Clothing/beretbs.rsi
+  - type: Clothing
+    sprite: _Mille/Clothing/beretbs.rsi
+
+# Униформа/комбинезон
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  suffix: СЩ, БЩ
+  name: Униформа синего щита
+  description: На вид бронированный бронежилет.
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.2
+        Piercing: 0.3
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
